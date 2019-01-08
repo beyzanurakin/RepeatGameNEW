@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/specgri"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:padding="10dp"
+        android:fontFamily="@font/viga"
+        android:background="@color/titlebackcolor"
+        android:textColor="@color/titlecolor"
+        android:text="REPEAT GAME "
+        android:textSize="36sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/playbtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="15dp"
+            android:background="@color/playcolor"
+            android:textColor="@color/specbeyaz"
+            android:fontFamily="@font/viga"
+            android:text="PLAY" />
+
+        <Button
+            android:id="@+id/howbtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="15dp"
+            android:background="@color/howtocolor"
+            android:textColor="@color/specbeyaz"
+            android:fontFamily="@font/viga"
+            android:text="HOW TO PLAY" />
+
+        <Button
+            android:id="@+id/optionsbtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="15dp"
+            android:background="@color/optionscolor"
+            android:textColor="@color/specbeyaz"
+            android:fontFamily="@font/viga"
+            android:text="OPTIONS" />
+
+        <Button
+            android:id="@+id/exitbtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:background="@color/exitcolor"
+            android:textColor="@color/specbeyaz"
+            android:fontFamily="@font/viga"
+            android:text="EXIT"
+            android:onClick="clickexit"/>
+    </LinearLayout>
+</RelativeLayout>

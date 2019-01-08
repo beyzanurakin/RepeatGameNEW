@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#8508323a</color>
+    <color name="colorPrimaryDark">#ffe4e1</color>
+    <color name="specmavi">#0080ff</color>
+    <color name="specyesil">#00a672</color>
+    <color name="specsari">#fcba00</color>
+    <color name="specgri">#D3D3D3</color>
+    <color name="specbeyaz">#F0FFF0</color>
+    <color name="playcolor">#58d0a2</color>
+    <color name="howtocolor">#e35e6e</color>
+    <color name="optionscolor">#bb89b7</color>
+    <color name="exitcolor">#729ee7</color>
+    <color name="titlebackcolor">#dfd56b</color>
+    <color name="titlecolor">#ffffff</color>
+    <color name="titlefontcolor">#b33929</color>
+    <color name="turuncu">#ef8422</color>
+    <color name="contactcolor">#6d6b8c</color>
+    <color name="switchcolor">#859f7c</color>
+    <color name="specblack">#000000</color>
+
+</resources>

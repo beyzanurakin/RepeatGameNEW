@@ -107,7 +107,7 @@ public class medium_level extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 buttonLogic(v);
-                ((Button) v).setText("0");
+                ((Button) v).setText("✔");
 
             }
         });
@@ -116,7 +116,7 @@ public class medium_level extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 buttonLogic(v);
-                ((Button) v).setText("0");
+                ((Button) v).setText("✔");
 
             }
         });
@@ -124,7 +124,7 @@ public class medium_level extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 buttonLogic(v);
-                ((Button) v).setText("0");
+                ((Button) v).setText("✔");
 
             }
         });
@@ -132,7 +132,7 @@ public class medium_level extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 buttonLogic(v);
-                ((Button) v).setText("0");
+                ((Button) v).setText("✔");
 
             }
         });
@@ -140,7 +140,7 @@ public class medium_level extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 buttonLogic(v);
-                ((Button) v).setText("0");
+                ((Button) v).setText("✔");
 
             }
         });
@@ -148,7 +148,7 @@ public class medium_level extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 buttonLogic(v);
-                ((Button) v).setText("0");
+                ((Button) v).setText("✔");
 
             }
         });
@@ -156,7 +156,7 @@ public class medium_level extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 buttonLogic(v);
-                ((Button) v).setText("0");
+                ((Button) v).setText("✔");
 
             }
         });
@@ -164,7 +164,7 @@ public class medium_level extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 buttonLogic(v);
-                ((Button) v).setText("0");
+                ((Button) v).setText("✔");
 
             }
         });
@@ -172,7 +172,7 @@ public class medium_level extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 buttonLogic(v);
-                ((Button) v).setText("0");
+                ((Button) v).setText("✔");
 
             }
         });
@@ -180,7 +180,7 @@ public class medium_level extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 buttonLogic(v);
-                ((Button) v).setText("0");
+                ((Button) v).setText("✔");
 
             }
         });
@@ -188,7 +188,7 @@ public class medium_level extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 buttonLogic(v);
-                ((Button) v).setText("0");
+                ((Button) v).setText("✔");
 
             }
         });
@@ -197,7 +197,7 @@ public class medium_level extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 buttonLogic(v);
-                ((Button) v).setText("0");
+                ((Button) v).setText("✔");
 
             }
         });
@@ -205,7 +205,7 @@ public class medium_level extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 buttonLogic(v);
-                ((Button) v).setText("0");
+                ((Button) v).setText("✔");
 
             }
         });
@@ -213,7 +213,7 @@ public class medium_level extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 buttonLogic(v);
-                ((Button) v).setText("0");
+                ((Button) v).setText("✔");
 
             }
         });
@@ -221,7 +221,7 @@ public class medium_level extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 buttonLogic(v);
-                ((Button) v).setText("0");
+                ((Button) v).setText("✔");
 
             }
         });
@@ -229,7 +229,7 @@ public class medium_level extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 buttonLogic(v);
-                ((Button) v).setText("0");
+                ((Button) v).setText("✔");
 
             }
         });
@@ -257,7 +257,7 @@ public class medium_level extends AppCompatActivity {
     private void checkWin(){
         if(curGuess == curLevel){
             disableButtons();
-            if(curLevel == 16){
+            if(curLevel == 12){
                 Toast.makeText(this, "succes!", Toast.LENGTH_SHORT).show();
                 b_new.setVisibility(View.VISIBLE);
             } else{
@@ -331,52 +331,68 @@ public class medium_level extends AppCompatActivity {
     private void showButton(int number){
         switch (number){
             case 1:
-                button1.setText("0");
+                button1.setText("✿");
+                button1.setTextColor(0xff000000);
                 break;
             case 2:
-                button2.setText("0");
+                button2.setText("✿");
+                button2.setTextColor(0xff000000);
                 break;
             case 3:
-                button3.setText("0");
+                button3.setText("✿");
+                button3.setTextColor(0xff000000);
                 break;
             case 4:
-                button4.setText("0");
+                button4.setText("✿");
+                button4.setTextColor(0xff000000);
                 break;
             case 5:
-                button5.setText("0");
+                button5.setText("✿");
+                button5.setTextColor(0xff000000);
                 break;
             case 6:
-                button6.setText("0");
+                button6.setText("✿");
+                button6.setTextColor(0xff000000);
                 break;
             case 7:
-                button7.setText("0");
+                button7.setText("✿");
+                button7.setTextColor(0xff000000);
                 break;
             case 8:
-                button8.setText("0");
+                button8.setText("✿");
+                button8.setTextColor(0xff000000);
                 break;
             case 9:
-                button9.setText("0");
+                button9.setText("✿");
+                button9.setTextColor(0xff000000);
                 break;
             case 10:
-                button10.setText("0");
+                button10.setText("✿");
+                button10.setTextColor(0xff000000);
                 break;
             case 11:
-                button11.setText("0");
+                button11.setText("✿");
+                button11.setTextColor(0xff000000);
                 break;
             case 12:
-                button12.setText("0");
+                button12.setText("✿");
+                button12.setTextColor(0xff000000);
                 break;
             case 13:
-                button12.setText("0");
+                button13.setText("✿");
+                button13.setTextColor(0xff000000);
                 break;
             case 14:
-                button12.setText("0");
+                button14.setText("✿");
+                button14.setTextColor(0xff000000);
                 break;
             case 15:
-                button12.setText("0");
+                button15.setText("✿");
+                button15.setTextColor(0xff000000);
                 break;
             case 16:
-                button12.setText("0");
+                button16.setText("✿");
+                button16.setTextColor(0xff000000);
                 break;
 
         }

@@ -202,7 +202,7 @@ public class easy_level extends AppCompatActivity {
     }
 
     private void lostGame(){
-        Intent intent = new Intent(this, easy_level.class);
+        Intent intent = new Intent(this, GameOver.class);
         startActivity(intent);
     }
 

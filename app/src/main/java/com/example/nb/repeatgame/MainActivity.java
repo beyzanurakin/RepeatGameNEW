@@ -46,8 +46,12 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void openPlayPage(){
-        Intent intent = new Intent(this, PlayPage.class);
+
+        Intent intent = new Intent(this, Login.class);
         startActivity(intent);
+
+//        Intent intent = new Intent(this, PlayPage.class);
+//        startActivity(intent);
 
     }
 

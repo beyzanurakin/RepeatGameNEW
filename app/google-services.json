@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "341607552060",
+    "firebase_url": "https://repaetgame.firebaseio.com",
+    "project_id": "repaetgame",
+    "storage_bucket": "repaetgame.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:341607552060:android:f566bdfab3b39979",
+        "android_client_info": {
+          "package_name": "com.example.nb.repeatgame"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "341607552060-r3bag5gud8laepfqcbqm0470kqg638qo.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.nb.repeatgame",
+            "certificate_hash": "105cd61cacca85b929051ffd793a98a3dae1bd66"
+          }
+        },
+        {
+          "client_id": "341607552060-qhtrl6894su9bkt952573gh31vjhr29l.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB0a0uQFv2BiB6yWsbE6NiCtdXW4z7MIwA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "341607552060-qhtrl6894su9bkt952573gh31vjhr29l.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
